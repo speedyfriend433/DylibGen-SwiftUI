@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EFF48462D2BB7DE003F4AB6 /* dylibGenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF48452D2BB7DE003F4AB6 /* dylibGenApp.swift */; };
+		8EFF48482D2BB7DE003F4AB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF48472D2BB7DE003F4AB6 /* ContentView.swift */; };
+		8EFF484A2D2BB7E0003F4AB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFF48492D2BB7E0003F4AB6 /* Assets.xcassets */; };
+		8EFF484D2D2BB7E0003F4AB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFF484C2D2BB7E0003F4AB6 /* Preview Assets.xcassets */; };
+		8EFF48572D2BB7E0003F4AB6 /* dylibGenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF48562D2BB7E0003F4AB6 /* dylibGenTests.swift */; };
+		8EFF48612D2BB7E0003F4AB6 /* dylibGenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF48602D2BB7E0003F4AB6 /* dylibGenUITests.swift */; };
+		8EFF48632D2BB7E0003F4AB6 /* dylibGenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF48622D2BB7E0003F4AB6 /* dylibGenUITestsLaunchTests.swift */; };
+		8EFF48702D2BB801003F4AB6 /* DylibGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF486F2D2BB800003F4AB6 /* DylibGeneratorViewController.swift */; };
+		8EFF48722D2BB80E003F4AB6 /* DylibGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF48712D2BB80E003F4AB6 /* DylibGenerator.swift */; };
+		8EFF487E2D2BB8FF003F4AB6 /* DylibGeneratorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF487D2D2BB8FF003F4AB6 /* DylibGeneratorViewModel.swift */; };
+		8EFF48802D2BB91A003F4AB6 /* CodeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF487F2D2BB91A003F4AB6 /* CodeEditorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EFF48532D2BB7E0003F4AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EFF483A2D2BB7DE003F4AB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EFF48412D2BB7DE003F4AB6;
+			remoteInfo = dylibGen;
+		};
+		8EFF485D2D2BB7E0003F4AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EFF483A2D2BB7DE003F4AB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EFF48412D2BB7DE003F4AB6;
+			remoteInfo = dylibGen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EFF48422D2BB7DE003F4AB6 /* dylibGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dylibGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFF48452D2BB7DE003F4AB6 /* dylibGenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dylibGenApp.swift; sourceTree = "<group>"; };
+		8EFF48472D2BB7DE003F4AB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EFF48492D2BB7E0003F4AB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EFF484C2D2BB7E0003F4AB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EFF48522D2BB7E0003F4AB6 /* dylibGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dylibGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFF48562D2BB7E0003F4AB6 /* dylibGenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dylibGenTests.swift; sourceTree = "<group>"; };
+		8EFF485C2D2BB7E0003F4AB6 /* dylibGenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dylibGenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFF48602D2BB7E0003F4AB6 /* dylibGenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dylibGenUITests.swift; sourceTree = "<group>"; };
+		8EFF48622D2BB7E0003F4AB6 /* dylibGenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dylibGenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EFF486F2D2BB800003F4AB6 /* DylibGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DylibGeneratorViewController.swift; sourceTree = "<group>"; };
+		8EFF48712D2BB80E003F4AB6 /* DylibGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DylibGenerator.swift; sourceTree = "<group>"; };
+		8EFF487D2D2BB8FF003F4AB6 /* DylibGeneratorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DylibGeneratorViewModel.swift; sourceTree = "<group>"; };
+		8EFF487F2D2BB91A003F4AB6 /* CodeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeEditorView.swift; sourceTree = "<group>"; };
+		8EFF48812D2BB985003F4AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8EFF48822D2BB999003F4AB6 /* dylibGen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dylibGen.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EFF483F2D2BB7DE003F4AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFF484F2D2BB7E0003F4AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFF48592D2BB7E0003F4AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EFF48392D2BB7DE003F4AB6 = {
+			isa = PBXGroup;
+			children = (
+				8EFF48442D2BB7DE003F4AB6 /* dylibGen */,
+				8EFF48552D2BB7E0003F4AB6 /* dylibGenTests */,
+				8EFF485F2D2BB7E0003F4AB6 /* dylibGenUITests */,
+				8EFF48432D2BB7DE003F4AB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EFF48432D2BB7DE003F4AB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF48422D2BB7DE003F4AB6 /* dylibGen.app */,
+				8EFF48522D2BB7E0003F4AB6 /* dylibGenTests.xctest */,
+				8EFF485C2D2BB7E0003F4AB6 /* dylibGenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EFF48442D2BB7DE003F4AB6 /* dylibGen */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF48822D2BB999003F4AB6 /* dylibGen.entitlements */,
+				8EFF48812D2BB985003F4AB6 /* Info.plist */,
+				8EFF48452D2BB7DE003F4AB6 /* dylibGenApp.swift */,
+				8EFF48472D2BB7DE003F4AB6 /* ContentView.swift */,
+				8EFF486F2D2BB800003F4AB6 /* DylibGeneratorViewController.swift */,
+				8EFF48712D2BB80E003F4AB6 /* DylibGenerator.swift */,
+				8EFF487D2D2BB8FF003F4AB6 /* DylibGeneratorViewModel.swift */,
+				8EFF487F2D2BB91A003F4AB6 /* CodeEditorView.swift */,
+				8EFF48492D2BB7E0003F4AB6 /* Assets.xcassets */,
+				8EFF484B2D2BB7E0003F4AB6 /* Preview Content */,
+			);
+			path = dylibGen;
+			sourceTree = "<group>";
+		};
+		8EFF484B2D2BB7E0003F4AB6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF484C2D2BB7E0003F4AB6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EFF48552D2BB7E0003F4AB6 /* dylibGenTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF48562D2BB7E0003F4AB6 /* dylibGenTests.swift */,
+			);
+			path = dylibGenTests;
+			sourceTree = "<group>";
+		};
+		8EFF485F2D2BB7E0003F4AB6 /* dylibGenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF48602D2BB7E0003F4AB6 /* dylibGenUITests.swift */,
+				8EFF48622D2BB7E0003F4AB6 /* dylibGenUITestsLaunchTests.swift */,
+			);
+			path = dylibGenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EFF48412D2BB7DE003F4AB6 /* dylibGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFF48662D2BB7E0003F4AB6 /* Build configuration list for PBXNativeTarget "dylibGen" */;
+			buildPhases = (
+				8EFF483E2D2BB7DE003F4AB6 /* Sources */,
+				8EFF483F2D2BB7DE003F4AB6 /* Frameworks */,
+				8EFF48402D2BB7DE003F4AB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dylibGen;
+			productName = dylibGen;
+			productReference = 8EFF48422D2BB7DE003F4AB6 /* dylibGen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EFF48512D2BB7E0003F4AB6 /* dylibGenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFF48692D2BB7E0003F4AB6 /* Build configuration list for PBXNativeTarget "dylibGenTests" */;
+			buildPhases = (
+				8EFF484E2D2BB7E0003F4AB6 /* Sources */,
+				8EFF484F2D2BB7E0003F4AB6 /* Frameworks */,
+				8EFF48502D2BB7E0003F4AB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EFF48542D2BB7E0003F4AB6 /* PBXTargetDependency */,
+			);
+			name = dylibGenTests;
+			productName = dylibGenTests;
+			productReference = 8EFF48522D2BB7E0003F4AB6 /* dylibGenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EFF485B2D2BB7E0003F4AB6 /* dylibGenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFF486C2D2BB7E0003F4AB6 /* Build configuration list for PBXNativeTarget "dylibGenUITests" */;
+			buildPhases = (
+				8EFF48582D2BB7E0003F4AB6 /* Sources */,
+				8EFF48592D2BB7E0003F4AB6 /* Frameworks */,
+				8EFF485A2D2BB7E0003F4AB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EFF485E2D2BB7E0003F4AB6 /* PBXTargetDependency */,
+			);
+			name = dylibGenUITests;
+			productName = dylibGenUITests;
+			productReference = 8EFF485C2D2BB7E0003F4AB6 /* dylibGenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EFF483A2D2BB7DE003F4AB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8EFF48412D2BB7DE003F4AB6 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8EFF48512D2BB7E0003F4AB6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8EFF48412D2BB7DE003F4AB6;
+					};
+					8EFF485B2D2BB7E0003F4AB6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8EFF48412D2BB7DE003F4AB6;
+					};
+				};
+			};
+			buildConfigurationList = 8EFF483D2D2BB7DE003F4AB6 /* Build configuration list for PBXProject "dylibGen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EFF48392D2BB7DE003F4AB6;
+			productRefGroup = 8EFF48432D2BB7DE003F4AB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EFF48412D2BB7DE003F4AB6 /* dylibGen */,
+				8EFF48512D2BB7E0003F4AB6 /* dylibGenTests */,
+				8EFF485B2D2BB7E0003F4AB6 /* dylibGenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EFF48402D2BB7DE003F4AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFF484D2D2BB7E0003F4AB6 /* Preview Assets.xcassets in Resources */,
+				8EFF484A2D2BB7E0003F4AB6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFF48502D2BB7E0003F4AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFF485A2D2BB7E0003F4AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EFF483E2D2BB7DE003F4AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFF48702D2BB801003F4AB6 /* DylibGeneratorViewController.swift in Sources */,
+				8EFF48802D2BB91A003F4AB6 /* CodeEditorView.swift in Sources */,
+				8EFF48482D2BB7DE003F4AB6 /* ContentView.swift in Sources */,
+				8EFF487E2D2BB8FF003F4AB6 /* DylibGeneratorViewModel.swift in Sources */,
+				8EFF48722D2BB80E003F4AB6 /* DylibGenerator.swift in Sources */,
+				8EFF48462D2BB7DE003F4AB6 /* dylibGenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFF484E2D2BB7E0003F4AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFF48572D2BB7E0003F4AB6 /* dylibGenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFF48582D2BB7E0003F4AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFF48632D2BB7E0003F4AB6 /* dylibGenUITestsLaunchTests.swift in Sources */,
+				8EFF48612D2BB7E0003F4AB6 /* dylibGenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EFF48542D2BB7E0003F4AB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EFF48412D2BB7DE003F4AB6 /* dylibGen */;
+			targetProxy = 8EFF48532D2BB7E0003F4AB6 /* PBXContainerItemProxy */;
+		};
+		8EFF485E2D2BB7E0003F4AB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EFF48412D2BB7DE003F4AB6 /* dylibGen */;
+			targetProxy = 8EFF485D2D2BB7E0003F4AB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EFF48642D2BB7E0003F4AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EFF48652D2BB7E0003F4AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EFF48672D2BB7E0003F4AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = dylibGen/dylibGen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dylibGen/Preview Content\"";
+				DEVELOPMENT_TEAM = 5TY9N2G2MQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dylibGen/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.dylibGen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EFF48682D2BB7E0003F4AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = dylibGen/dylibGen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dylibGen/Preview Content\"";
+				DEVELOPMENT_TEAM = 5TY9N2G2MQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dylibGen/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.dylibGen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EFF486A2D2BB7E0003F4AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TY9N2G2MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.dylibGenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dylibGen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dylibGen";
+			};
+			name = Debug;
+		};
+		8EFF486B2D2BB7E0003F4AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TY9N2G2MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.dylibGenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dylibGen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dylibGen";
+			};
+			name = Release;
+		};
+		8EFF486D2D2BB7E0003F4AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TY9N2G2MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.dylibGenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dylibGen;
+			};
+			name = Debug;
+		};
+		8EFF486E2D2BB7E0003F4AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TY9N2G2MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.dylibGenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dylibGen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EFF483D2D2BB7DE003F4AB6 /* Build configuration list for PBXProject "dylibGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFF48642D2BB7E0003F4AB6 /* Debug */,
+				8EFF48652D2BB7E0003F4AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFF48662D2BB7E0003F4AB6 /* Build configuration list for PBXNativeTarget "dylibGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFF48672D2BB7E0003F4AB6 /* Debug */,
+				8EFF48682D2BB7E0003F4AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFF48692D2BB7E0003F4AB6 /* Build configuration list for PBXNativeTarget "dylibGenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFF486A2D2BB7E0003F4AB6 /* Debug */,
+				8EFF486B2D2BB7E0003F4AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFF486C2D2BB7E0003F4AB6 /* Build configuration list for PBXNativeTarget "dylibGenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFF486D2D2BB7E0003F4AB6 /* Debug */,
+				8EFF486E2D2BB7E0003F4AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EFF483A2D2BB7DE003F4AB6 /* Project object */;
+}
